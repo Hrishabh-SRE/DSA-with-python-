@@ -1,4 +1,12 @@
 list=[1,2,4,"hello"]
+
+print(len(list))
+
+print("\n")
+
+print(list[1])
+
+
 for i in list:
     print(i, list.index(i))
 
@@ -8,6 +16,9 @@ for i in list:
 
 print("\n")
 list.insert(1,"mango")
-for i in list:
-    print(i)
+
+
+
+
+
 
